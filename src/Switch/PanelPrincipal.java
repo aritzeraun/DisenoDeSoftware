@@ -116,17 +116,17 @@ public class PanelPrincipal extends JFrame {
 
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				btnNewButton.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/OrganizacionOscuro.png")));
-				btnNewButton_1.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/InvestigadorClaro.png")));
-				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaClaro.png")));
-				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoClaro.png")));
-				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoClaro.png")));
 				chckbxNewCheckBox.setEnabled(true);
 				chckbxNewCheckBox_1.setEnabled(false);
 				chckbxNewCheckBox_2.setEnabled(false);
 				chckbxNewCheckBox_3.setEnabled(true);
 				chckbxNewCheckBox_4.setEnabled(true);
 				chckbxNewCheckBox_5.setEnabled(false);
+				btnNewButton.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/OrganizacionOscuro.png")));
+				btnNewButton_1.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/InvestigadorClaro.png")));
+				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaClaro.png")));
+				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoClaro.png")));
+				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoClaro.png")));
 			}
 		});
 		btnNewButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
