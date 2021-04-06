@@ -47,6 +47,21 @@ public class PanelPrincipal extends JFrame {
 	private JTextField textField_1;
 	private JTextField textField_4;
 	private JTextField textField_5;
+	
+	private JCheckBox chckbxNewCheckBox = new JCheckBox("Nombre");
+	private JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Primer Apellido");
+	private JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Segundo Apellido");
+	private JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Localizaci\u00F3n");
+	private JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Fecha Alta / Creaci\u00F3n");
+	private JCheckBox chckbxNewCheckBox_5 = new JCheckBox("Fecha Baja / Disoluci\u00F3n ");
+	
+	private JRadioButton rdbtnNewRadioButton;	
+	private JRadioButton rdbtnNewRadioButton_1;
+	private JRadioButton rdbtnNewRadioButton_2;
+	private JRadioButton rdbtnNewRadioButton_3;
+	private JRadioButton rdbtnNewRadioButton_1_1;
+	private JRadioButton rdbtnNewRadioButton_2_1;
+	
 
 	/**
 	 * Launch the application.
@@ -95,16 +110,10 @@ public class PanelPrincipal extends JFrame {
 		JButton btnNewButton_3 = new JButton("");
 		JButton btnNewButton_5 = new JButton("");
 		
-		JCheckBox chckbxNewCheckBox = new JCheckBox("Nombre");
-		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Primer Apellido");
 		chckbxNewCheckBox_1.setEnabled(false);
-		JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Segundo Apellido");
 		chckbxNewCheckBox_2.setEnabled(false);
-		JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Localizaci\u00F3n");
-		JCheckBox chckbxNewCheckBox_5 = new JCheckBox("Fecha Baja / Disoluci\u00F3n ");
 		chckbxNewCheckBox_5.setEnabled(false);
-		JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Fecha Alta / Creaci\u00F3n");
-		
+
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				btnNewButton.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/OrganizacionOscuro.png")));
@@ -145,6 +154,9 @@ public class PanelPrincipal extends JFrame {
 				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaClaro.png")));
 				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoClaro.png")));
 				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoClaro.png")));
+				
+				deshabilitar();
+				
 				chckbxNewCheckBox.setEnabled(true);
 				chckbxNewCheckBox_1.setEnabled(true);
 				chckbxNewCheckBox_2.setEnabled(true);
@@ -168,6 +180,9 @@ public class PanelPrincipal extends JFrame {
 				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaOscuro.png")));
 				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoClaro.png")));
 				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoClaro.png")));
+
+				deshabilitar();
+				
 				chckbxNewCheckBox.setEnabled(true);
 				chckbxNewCheckBox_1.setEnabled(false);
 				chckbxNewCheckBox_2.setEnabled(false);
@@ -191,6 +206,9 @@ public class PanelPrincipal extends JFrame {
 				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaClaro.png")));
 				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoOscuro.png")));
 				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoClaro.png")));
+
+				deshabilitar();
+				
 				chckbxNewCheckBox.setEnabled(true);
 				chckbxNewCheckBox_1.setEnabled(false);
 				chckbxNewCheckBox_2.setEnabled(false);
@@ -214,6 +232,9 @@ public class PanelPrincipal extends JFrame {
 				btnNewButton_2.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/TematicaClaro.png")));
 				btnNewButton_3.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/EquipoClaro.png")));
 				btnNewButton_5.setIcon(new ImageIcon(PanelPrincipal.class.getResource("/Resources/ProyectoOscuro.png")));
+
+				deshabilitar();
+				
 				chckbxNewCheckBox.setEnabled(false);
 				chckbxNewCheckBox_1.setEnabled(false);
 				chckbxNewCheckBox_2.setEnabled(false);
@@ -390,15 +411,15 @@ public class PanelPrincipal extends JFrame {
 			}
 		});
 		
-		JRadioButton rdbtnNewRadioButton = new JRadioButton("Antes de ...");
+		rdbtnNewRadioButton = new JRadioButton("Antes de ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton, 49, SpringLayout.SOUTH, chckbxNewCheckBox_3);
 		sl_panel_1.putConstraint(SpringLayout.WEST, rdbtnNewRadioButton, 41, SpringLayout.EAST, txtNombre);
 		rdbtnNewRadioButton.setEnabled(false);
-		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Despu\u00E9s de ...");
+		rdbtnNewRadioButton_1 = new JRadioButton("Despu\u00E9s de ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton_1, 5, SpringLayout.SOUTH, rdbtnNewRadioButton);
 		sl_panel_1.putConstraint(SpringLayout.WEST, rdbtnNewRadioButton_1, 0, SpringLayout.WEST, rdbtnNewRadioButton);
 		rdbtnNewRadioButton_1.setEnabled(false);
-		JRadioButton rdbtnNewRadioButton_2 = new JRadioButton("Entre ...");
+		rdbtnNewRadioButton_2 = new JRadioButton("Entre ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton_2, 6, SpringLayout.SOUTH, rdbtnNewRadioButton_1);
 		sl_panel_1.putConstraint(SpringLayout.WEST, rdbtnNewRadioButton_2, 0, SpringLayout.WEST, rdbtnNewRadioButton);
 		rdbtnNewRadioButton_2.setEnabled(false);
@@ -432,19 +453,19 @@ public class PanelPrincipal extends JFrame {
 		sl_panel_1.putConstraint(SpringLayout.SOUTH, chckbxNewCheckBox_4, 0, SpringLayout.SOUTH, chckbxNewCheckBox);
 		panel_1.add(chckbxNewCheckBox_4);
 		
-		JRadioButton rdbtnNewRadioButton_3 = new JRadioButton("Antes de ...");
+		rdbtnNewRadioButton_3 = new JRadioButton("Antes de ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton_3, 94, SpringLayout.NORTH, panel_1);
 		sl_panel_1.putConstraint(SpringLayout.EAST, rdbtnNewRadioButton_3, -224, SpringLayout.EAST, panel_1);
 		rdbtnNewRadioButton_3.setEnabled(false);
 		panel_1.add(rdbtnNewRadioButton_3);
 		
-		JRadioButton rdbtnNewRadioButton_1_1 = new JRadioButton("Despu\u00E9s de ...");
+		rdbtnNewRadioButton_1_1 = new JRadioButton("Despu\u00E9s de ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton_1_1, 7, SpringLayout.SOUTH, rdbtnNewRadioButton_3);
 		sl_panel_1.putConstraint(SpringLayout.WEST, rdbtnNewRadioButton_1_1, 0, SpringLayout.WEST, rdbtnNewRadioButton_3);
 		rdbtnNewRadioButton_1_1.setEnabled(false);
 		panel_1.add(rdbtnNewRadioButton_1_1);
 		
-		JRadioButton rdbtnNewRadioButton_2_1 = new JRadioButton("Entre ...");
+		rdbtnNewRadioButton_2_1 = new JRadioButton("Entre ...");
 		sl_panel_1.putConstraint(SpringLayout.NORTH, rdbtnNewRadioButton_2_1, 0, SpringLayout.NORTH, rdbtnNewRadioButton_2);
 		sl_panel_1.putConstraint(SpringLayout.WEST, rdbtnNewRadioButton_2_1, 0, SpringLayout.WEST, rdbtnNewRadioButton_3);
 		rdbtnNewRadioButton_2_1.setEnabled(false);
@@ -850,7 +871,37 @@ public class PanelPrincipal extends JFrame {
 				}
 			}
 		});
-
+		
 		panel.setLayout(gl_panel);
+	}
+	
+	
+	public void deshabilitar() {
+		chckbxNewCheckBox.setSelected(false);
+		chckbxNewCheckBox_1.setSelected(false);
+		chckbxNewCheckBox_2.setSelected(false);
+		chckbxNewCheckBox_3.setSelected(false);
+		chckbxNewCheckBox_4.setSelected(false);
+		chckbxNewCheckBox_5.setSelected(false);
+		
+		txtNombre.setEnabled(false);
+		txtPrimerApellido.setEnabled(false);
+		txtDdmmaaaa.setEnabled(false);
+		txtDdmmaaaa_1.setEnabled(false);
+		textField_2.setEnabled(false);
+		textField_3.setEnabled(false);
+		txtSegundoApellido.setEnabled(false);
+		txtLocalizacion.setEnabled(false);
+		textField.setEnabled(false);
+		textField_1.setEnabled(false);
+		textField_4.setEnabled(false);
+		textField_5.setEnabled(false);
+		
+		rdbtnNewRadioButton.setEnabled(false);
+		rdbtnNewRadioButton_1.setEnabled(false);
+		rdbtnNewRadioButton_2.setEnabled(false);
+		rdbtnNewRadioButton_3.setEnabled(false);
+		rdbtnNewRadioButton_1_1.setEnabled(false);
+		rdbtnNewRadioButton_2_1.setEnabled(false);
 	}
 }
