@@ -1,0 +1,14 @@
+23:22:54,194 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+23:22:54,413 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+23:22:54,413 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+23:22:54,428 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+23:22:54,428 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+23:22:54,428 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+23:22:54,428 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+23:22:54,444 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+23:22:54,444 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+23:22:54,444 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+23:22:54,444 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=156 ms, enhance=109 ms, total=265 ms. Compruebe el LOG para los detalles

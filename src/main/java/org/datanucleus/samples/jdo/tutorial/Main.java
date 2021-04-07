@@ -8,6 +8,7 @@ import javax.jdo.Transaction;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
 public class Main {
 
 	public static void main(String[] args)
@@ -18,6 +19,7 @@ public class Main {
 			PersistenceManagerFactory persistentManagerFactory = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
 			PersistenceManager persistentManager = persistentManagerFactory.getPersistenceManager();				
 			Transaction transaction = persistentManager.currentTransaction();
+
 
 			try
             {
