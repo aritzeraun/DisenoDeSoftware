@@ -30,6 +30,8 @@ public class Avance {
     public Proyecto getProyecto() { return proyecto; }
     public void setProyecto(Proyecto proyecto) { this.proyecto = proyecto; }
 
-    public Avance() {
+    public Avance(Date fec_avance)
+    {
+        this.fec_avance=fec_avance;
     }
 }

@@ -59,11 +59,12 @@ public class Investigador {
     public String getGenero() { return genero; }
     public void setGenero(String genero) { this.genero = genero; }
 
-    public Investigador(String nombre, String apellido1, String apellido2, int edad, String genero) {
+    public Investigador(String nombre, String apellido1, String apellido2, int edad, Date fec_alta, String genero) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
         this.edad = edad;
+        this.fec_alta = fec_alta;
         this.genero = genero;
     }
 }

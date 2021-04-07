@@ -54,9 +54,11 @@ public class Proyecto {
     public Tematica getTematica() { return tematica; }
     public void setTematica(Tematica tematica) { this.tematica = tematica; }
 
-    public Proyecto(String nombre, String descripcion, String estado) {
+    public Proyecto(String nombre, String descripcion, String estado, Date fec_comienzo, Date fec_ultEdicion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.estado = estado;
+        this.fec_comienzo=fec_comienzo;
+        this.fec_ultEdicion=fec_ultEdicion;
     }
 }

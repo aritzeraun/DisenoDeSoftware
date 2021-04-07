@@ -62,9 +62,12 @@ public class Equipo {
    // public Equipo getEquipo() { return equipo; }
    // public void setEquipo(Equipo equipo) { this.equipo = equipo; }
 
-    public Equipo(String nombre, String descripcion, String privacidad) {
+    public Equipo(String nombre, String descripcion, String privacidad, Date fec_creacion, Date fec_disolucion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.privacidad = privacidad;
+        this.fec_creacion = fec_creacion;
+        this.fec_disolucion = fec_disolucion;
     }
 }
+
