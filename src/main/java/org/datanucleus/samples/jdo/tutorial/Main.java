@@ -35,8 +35,9 @@ public class Main {
 
 			    Organizacion organizacion= new Organizacion ("Deusto", "San Sebastian", "Universidad de Deusto", "Sin animo de lucro");
 			    Organizacion organizacion2= new Organizacion("UPV", "San Sebastian", "Universidad del País Vasco", "Sin animo de lucro");
-			    Investigador investigador = new Investigador("Amaia", "Zarranz", "Mendizabal", 22, fecha_alt_Invest, "Mujer");
+			    Investigador investigador = new Investigador("Amaia", "Zarranz", "Mendizabal", 22, fecha_alt_Invest);
 			    Equipo equipo= new Equipo ("Team 5", "The best team", "Alta", fecha_creacion_equipo, fecha__disolucion_equipo);
+				Equipo equipo2= new Equipo ("Team 6", "The second best team", "Alta", fecha_creacion_equipo, fecha__disolucion_equipo);
 			    Tematica tematica= new Tematica ("Tematica 1", "Area 1");
 			    Proyecto proyecto = new Proyecto ("Proyecto 1", "el proyecto uno", "estado", fecha_fec_comienzo_proyecto, fecha_fec_ultEdicion_proyecto);
 			    Avance avance=new Avance (fecha_fec_avance);
@@ -45,6 +46,7 @@ public class Main {
 			    organizacion.getEquipo().add(equipo);
 			    tematica.getProyecto().add(proyecto);
 			    equipo.getProyecto().add(proyecto);
+				equipo.getEquipo().add(equipo2);
 			    investigador.getAvance().add(avance);
 			    proyecto.getAvance().add(avance);
 			    investigador.getEquipo().add(equipo);
@@ -54,6 +56,7 @@ public class Main {
 			    persistentManager.makePersistent(organizacion2);
 			    persistentManager.makePersistent(tematica);
 				persistentManager.makePersistent(equipo);
+				persistentManager.makePersistent(equipo2);
 				persistentManager.makePersistent(investigador);
 				persistentManager.makePersistent(proyecto);
 

@@ -12,3 +12,92 @@
 23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
 23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
 23:22:54,459 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=156 ms, enhance=109 ms, total=265 ms. Compruebe el LOG para los detalles
+03:54:59,401 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+03:54:59,626 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+03:54:59,626 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+03:54:59,642 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+03:54:59,642 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+03:54:59,642 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+03:54:59,642 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+03:54:59,658 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+03:54:59,658 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+03:54:59,658 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+03:54:59,658 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+03:54:59,673 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+03:54:59,673 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+03:54:59,673 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=148 ms, enhance=109 ms, total=257 ms. Compruebe el LOG para los detalles
+03:55:16,132 (org.datanucleus.samples.jdo.tutorial.Main.main()) WARN  [DataNucleus.Query] - Query for candidates of org.datanucleus.samples.jdo.tutorial.Investigador and subclasses resulted in no possible candidates : El nombre de la columna "`ID_EQUIPO`", de la tabla "`EQUIPO`" esta duplicado. No se pueden mapear varios campos a una misma columna. El columnas utilizada org.datanucleus.samples.jdo.tutorial.Equipo.id_equipo y org.datanucleus.samples.jdo.tutorial.Equipo.equipo_padre. Vea tambien la propiedad "datanucleus.rdbms.allowColumnReuse"
+04:30:24,147 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+04:30:24,344 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Avance" esta enhanced.
+04:30:24,344 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Investigador" esta enhanced.
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Organizacion" esta enhanced.
+04:30:24,390 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+04:30:24,398 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Proyecto" esta enhanced.
+04:30:24,398 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+04:30:24,398 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Tematica" esta enhanced.
+04:30:24,398 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+04:30:24,398 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=161 ms, enhance=78 ms, total=239 ms. Compruebe el LOG para los detalles
+04:30:43,396 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@799cb220" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+04:30:44,170 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Investigador@3c551f1e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Investigador.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@69b6e240" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+04:30:44,281 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Datastore] - El campo de collección "org.datanucleus.samples.jdo.tutorial.Equipo.investigador" del objeto "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" debe añadir el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@3c551f1e" a la relación M-N pero este elemento ya existe.
+04:30:44,626 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@4a7b758c" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:16:39,146 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+13:16:39,332 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Avance" esta enhanced.
+13:16:39,332 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\DisenoDeSoftware\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Investigador" esta enhanced.
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Organizacion" esta enhanced.
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Proyecto" esta enhanced.
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Tematica" esta enhanced.
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+13:16:39,388 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=170 ms, enhance=72 ms, total=242 ms. Compruebe el LOG para los detalles
+13:19:29,762 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@2ece5a48" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@297394f" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:19:30,699 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Investigador@296b45b2" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Investigador.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@2ac93f71" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:19:30,792 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Datastore] - El campo de collección "org.datanucleus.samples.jdo.tutorial.Equipo.investigador" del objeto "org.datanucleus.samples.jdo.tutorial.Equipo@297394f" debe añadir el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@296b45b2" a la relación M-N pero este elemento ya existe.
+13:19:31,241 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@297394f" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@6c40274e" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:25:13,615 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+13:25:13,818 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Avance" esta enhanced.
+13:25:13,818 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+13:25:13,834 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Equipo" esta enhanced.
+13:25:13,834 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+13:25:13,834 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Investigador" esta enhanced.
+13:25:13,834 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Organizacion" esta enhanced.
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Proyecto" esta enhanced.
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Tematica" esta enhanced.
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+13:25:13,845 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=172 ms, enhance=42 ms, total=214 ms. Compruebe el LOG para los detalles
+13:25:35,426 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@5c268a4b" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@21e16525" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:25:36,471 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Investigador@2dd7391d" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Investigador.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@123141d1" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:25:36,576 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Datastore] - El campo de collección "org.datanucleus.samples.jdo.tutorial.Equipo.investigador" del objeto "org.datanucleus.samples.jdo.tutorial.Equipo@21e16525" debe añadir el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@2dd7391d" a la relación M-N pero este elemento ya existe.
+13:25:37,056 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@21e16525" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@4d0722b6" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:25:37,758 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@6ba9fca" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@6ba9fca" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:30:25,445 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+13:30:25,654 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Avance" esta enhanced.
+13:30:25,654 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+13:30:25,654 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Equipo" esta enhanced.
+13:30:25,654 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Investigador" esta enhanced.
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Organizacion" esta enhanced.
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Proyecto" esta enhanced.
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - La clase "org.datanucleus.samples.jdo.tutorial.Tematica" esta enhanced.
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+13:30:25,662 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 6 clases. Tiempos : input=177 ms, enhance=32 ms, total=209 ms. Compruebe el LOG para los detalles
+13:30:49,404 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@4a92dc9d" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:30:49,459 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@7d0fbf10" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:30:50,408 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Investigador@3c551f1e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Investigador.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@69b6e240" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:30:50,473 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Datastore] - El campo de collección "org.datanucleus.samples.jdo.tutorial.Equipo.investigador" del objeto "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" debe añadir el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@3c551f1e" a la relación M-N pero este elemento ya existe.
+13:30:50,905 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@5839125e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@4a7b758c" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.

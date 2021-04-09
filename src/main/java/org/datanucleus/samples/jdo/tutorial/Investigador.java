@@ -16,7 +16,7 @@ public class Investigador {
     String apellido2=null;
     int edad=0;
     Date fec_alta=null;
-    String genero=null;
+
     @Column(name="id_organizacion")
     Organizacion organizacion;
 
@@ -56,15 +56,12 @@ public class Investigador {
     public Date getFec_alta() { return fec_alta; }
     public void setFec_alta(Date fec_alta) { this.fec_alta = fec_alta; }
 
-    public String getGenero() { return genero; }
-    public void setGenero(String genero) { this.genero = genero; }
 
-    public Investigador(String nombre, String apellido1, String apellido2, int edad, Date fec_alta, String genero) {
+    public Investigador(String nombre, String apellido1, String apellido2, int edad, Date fec_alta) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
         this.edad = edad;
         this.fec_alta = fec_alta;
-        this.genero = genero;
     }
 }
