@@ -23,14 +23,13 @@ public class Investigador {
     @Persistent(mappedBy="investigador")
     Set<Avance> avance = new HashSet<Avance>();
 
-    //para la n a m
-    @Persistent(table="INVESTIGADOR_EQUIPO")
-    @Join(column="id_investigador")
-    @Element(column="id_equipo")
-    Set<Equipo> equipo=new HashSet<Equipo>();
+    @Persistent(mappedBy="investigador")
+    Set<Investigador_Equipo> investigador_equipo= new HashSet<>();
 
-    public Set<Equipo> getEquipo() { return equipo; }
-    public void setEquipo(Set<Equipo> equipo) { this.equipo = equipo; }
+
+
+    public Set<Investigador_Equipo> getInvestigador_Equipo() { return investigador_equipo;}
+    public void setInvestigador_Equipo(Set<Investigador_Equipo> investigador_equipo) { this.investigador_equipo = investigador_equipo;}
 
     public Set<Avance> getAvance() { return avance; }
     public void setAvance(Set<Avance> avance) { this.avance = avance; }
@@ -64,4 +63,5 @@ public class Investigador {
         this.edad = edad;
         this.fec_alta = fec_alta;
     }
+
 }

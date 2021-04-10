@@ -41,6 +41,7 @@ public class Main {
 			    Tematica tematica= new Tematica ("Tematica 1", "Area 1");
 			    Proyecto proyecto = new Proyecto ("Proyecto 1", "el proyecto uno", "estado", fecha_fec_comienzo_proyecto, fecha_fec_ultEdicion_proyecto);
 			    Avance avance=new Avance (fecha_fec_avance);
+				Investigador_Equipo investigador_equipo = new Investigador_Equipo(fecha_alt_Invest,fecha__disolucion_equipo);
 
 			    organizacion2.getInvestigador().add(investigador);
 			    organizacion.getEquipo().add(equipo);
@@ -49,8 +50,8 @@ public class Main {
 				equipo.getEquipo().add(equipo2);
 			    investigador.getAvance().add(avance);
 			    proyecto.getAvance().add(avance);
-			    investigador.getEquipo().add(equipo);
-			    equipo.getInvestigador().add(investigador);
+			    investigador.getInvestigador_Equipo().add(investigador_equipo);
+			    equipo.getInvestigador_Equipo().add(investigador_equipo);
 
 			    persistentManager.makePersistent(organizacion);
 			    persistentManager.makePersistent(organizacion2);

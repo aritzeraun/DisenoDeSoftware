@@ -30,12 +30,11 @@ public class Equipo {
     @Persistent(mappedBy="equipo")
     Set<Proyecto> proyecto = new HashSet<Proyecto>();
 
-    //para la n a m
     @Persistent(mappedBy="equipo")
-    Set<Investigador> investigador= new HashSet<Investigador>();
+    Set<Investigador_Equipo> investigador_equipo = new HashSet<Investigador_Equipo>();
 
-    public Set<Investigador> getInvestigador() { return investigador; }
-    public void setInvestigador(Set<Investigador> investigador) { this.investigador = investigador; }
+    public Set<Investigador_Equipo> getInvestigador_Equipo() { return investigador_equipo; }
+    public void setInvestigador_Equipo(Set<Investigador_Equipo> investigador_equipo) { this.investigador_equipo = investigador_equipo; }
 
     public Set<Proyecto> getProyecto() { return proyecto; }
     public void setProyecto(Set<Proyecto> proyecto) { this.proyecto = proyecto; }
