@@ -1783,3 +1783,607 @@ org.datanucleus.exceptions.NucleusUserException: El campo dueño equipo de la cla
 02:40:04,134 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@78d67fad" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@34c5a9ae" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
 02:40:04,629 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Proyecto@34c5a9ae" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Proyecto.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@665b97e6" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
 02:40:05,173 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@355e4d6b" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.investigador" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@54cc93c6" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:56:17,370 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+17:56:17,747 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+17:56:17,747 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+17:56:17,747 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+17:56:17,747 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+17:56:17,762 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+17:56:17,762 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+17:56:17,762 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class" con definicion enhanced
+17:56:17,762 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador_Equipo
+17:56:17,778 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+17:56:17,778 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+17:56:17,800 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+17:56:17,800 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+17:56:17,800 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+17:56:17,800 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+17:56:17,800 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 7 clases. Tiempos : input=295 ms, enhance=120 ms, total=415 ms. Compruebe el LOG para los detalles
+17:56:28,447 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+17:56:28,462 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:56:28,462 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+17:56:28,462 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+17:56:28,464 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+17:56:28,479 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.rdbms.checkexisttablesorviews=true
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatecolumns=true
+17:56:30,968 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateconstraints=true
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatetables=true
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+17:56:30,983 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+17:56:42,635 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:57:15,342 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@1c09cbce" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@770194e" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:57:15,431 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@770194e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@38fd443f" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:57:15,531 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@770194e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.investigador_equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador_Equipo@736dddb6" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:57:16,239 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@770194e" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@4b7f81f8" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:57:16,903 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Proyecto@4b7f81f8" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Proyecto.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@74d0100b" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+17:57:17,625 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@4dee3f7f" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.investigador" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@47316a09" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+14:52:31,794 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+14:52:31,809 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+14:52:31,809 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+14:52:31,809 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateall=true
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+14:52:34,313 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+14:52:39,547 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:56:46,752 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+14:56:47,238 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+14:56:47,238 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+14:56:47,238 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+14:56:47,238 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class" con definicion enhanced
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador_Equipo
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+14:56:47,258 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+14:56:47,275 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+14:56:47,275 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+14:56:47,275 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+14:56:47,275 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+14:56:47,275 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 7 clases. Tiempos : input=407 ms, enhance=100 ms, total=507 ms. Compruebe el LOG para los detalles
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+14:57:09,399 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+14:57:09,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.rdbms.checkexisttablesorviews=true
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatecolumns=true
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateconstraints=true
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatetables=true
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+14:57:11,766 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+14:57:22,548 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:58:29,613 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@4ef70364" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@32227f05" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:58:29,696 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@32227f05" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@6942bd7" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:58:29,794 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@32227f05" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.investigador_equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador_Equipo@2d85e6a2" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:58:30,480 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@32227f05" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@5bbb0f6f" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:58:31,107 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Proyecto@5bbb0f6f" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Proyecto.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@c7e7a7f" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+14:58:31,769 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@3fa724b6" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.investigador" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@792e79db" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+15:01:05,765 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateall=true
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+15:01:08,357 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+15:01:14,195 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+15:01:41,567 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+15:01:41,823 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+15:01:41,823 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+15:01:41,839 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+15:01:41,839 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+15:01:41,839 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+15:01:41,839 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+15:01:41,854 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class" con definicion enhanced
+15:01:41,854 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador_Equipo
+15:01:41,854 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+15:01:41,854 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+15:01:41,870 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+15:01:41,870 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+15:01:41,876 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+15:01:41,876 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+15:01:41,876 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 7 clases. Tiempos : input=178 ms, enhance=121 ms, total=299 ms. Compruebe el LOG para los detalles
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+15:01:53,594 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.rdbms.checkexisttablesorviews=true
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatecolumns=true
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateconstraints=true
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatetables=true
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+15:01:55,799 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+15:02:09,019 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+15:02:46,919 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@3be0f52" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@30ca81fb" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:02:46,988 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@30ca81fb" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@4fda7813" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:02:47,088 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@30ca81fb" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.investigador_equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador_Equipo@2ee5a619" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:02:47,758 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@30ca81fb" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@156387f3" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:02:48,376 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Proyecto@156387f3" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Proyecto.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@4a4423f3" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:02:49,077 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@bd846fc" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.investigador" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@2bd5c9c2" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:10:36,156 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+15:10:36,172 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateall=true
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+15:10:38,621 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+15:10:44,077 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+15:11:15,908 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.6) para el API "JDO" utilisando el JRE "{2}"
+15:11:16,312 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class" con definicion enhanced
+15:11:16,320 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Avance
+15:11:16,328 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class" con definicion enhanced
+15:11:16,336 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Equipo
+15:11:16,344 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class" con definicion enhanced
+15:11:16,344 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador
+15:11:16,352 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class" con definicion enhanced
+15:11:16,352 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Investigador_Equipo
+15:11:16,360 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class" con definicion enhanced
+15:11:16,360 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Organizacion
+15:11:16,368 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class" con definicion enhanced
+15:11:16,368 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Proyecto
+15:11:16,376 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class" con definicion enhanced
+15:11:16,376 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : org.datanucleus.samples.jdo.tutorial.Tematica
+15:11:16,384 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 7 clases. Tiempos : input=289 ms, enhance=179 ms, total=468 ms. Compruebe el LOG para los detalles
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.2.1\datanucleus-maven-plugin-5.2.1.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-core\5.2.6\datanucleus-core-5.2.6.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.5\datanucleus-api-jdo-5.2.5.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.6\datanucleus-rdbms-5.2.6.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m13\javax.jdo-3.2.0-m13.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-server\2.29\jersey-server-2.29.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29\jersey-client-2.29.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.5\jakarta.ws.rs-api-2.1.5.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.29\jersey-media-jaxb-2.29.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.4\jakarta.annotation-api-1.3.4.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.5.0\jakarta.inject-2.5.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.29\jersey-container-servlet-2.29.jar
+15:11:30,261 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.29\jersey-container-servlet-core-2.29.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29\jersey-common-2.29.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29\jersey-hk2-2.29.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0\hk2-locator-2.5.0.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0\aopalliance-repackaged-2.5.0.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0\hk2-api-2.5.0.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0\hk2-utils-2.5.0.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\javassist\javassist\3.22.0-CR2\javassist-3.22.0-CR2.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.29\jersey-media-json-jackson-2.29.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.29\jersey-entity-filtering-2.29.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar
+15:11:30,283 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Propiedades para persistencia
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.autostartmechanism=None
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionurl=jdbc:mysql://remotemysql.com:3306/nzy7nt8ORV?verifyServerCertificate=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.connectionusername=nzy7nt8ORV
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.mapping=mysql
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.rdbms.checkexisttablesorviews=true
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.readonlydatastore=false
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatecolumns=true
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreateconstraints=true
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  datanucleus.schema.autocreatetables=true
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Avance.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Equipo.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Investigador_Equipo.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Main.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Organizacion.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Proyecto.class
+15:11:32,612 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Alumno\Desktop\Proyecto\target\classes\org\datanucleus\samples\jdo\tutorial\Tematica.class
+15:11:45,544 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+15:12:03,711 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@225f5c96" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@476890f3" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:12:03,783 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@476890f3" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Equipo@403d3ba4" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:12:03,884 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@476890f3" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.investigador_equipo" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador_Equipo@6237c7f2" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:12:04,558 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Equipo@476890f3" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Equipo.proyecto" pero el elemento "org.datanucleus.samples.jdo.tutorial.Proyecto@1bf50fd" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:12:05,170 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Proyecto@1bf50fd" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Proyecto.avance" pero el elemento "org.datanucleus.samples.jdo.tutorial.Avance@61db2c32" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+15:12:05,861 (org.datanucleus.samples.jdo.tutorial.Main.main()) INFO  [DataNucleus.Persistence] - El objeto "org.datanucleus.samples.jdo.tutorial.Organizacion@6179fe73" tiene una colleccion "org.datanucleus.samples.jdo.tutorial.Organizacion.investigador" pero el elemento "org.datanucleus.samples.jdo.tutorial.Investigador@2d4180d9" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.

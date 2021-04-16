@@ -61,7 +61,11 @@ public class Main {
 				persistentManager.makePersistent(investigador);
 				persistentManager.makePersistent(proyecto);
 
-				//System.out.println("- Inserted into db: " + investigador.nombre);
+				//prueba
+				System.out.println("- Inserted into db: " + investigador.nombre);
+				investigador.setNombre("Amaia 2");
+				persistentManager.makePersistent(investigador);
+				System.out.println("- Updated into db: " + investigador.nombre);
 
 			    transaction.commit();
 			    
@@ -93,14 +97,21 @@ public class Main {
 
 			    @SuppressWarnings("unchecked")
 				Query<Investigador> investigadorQuery = persistentManager.newQuery("SELECT FROM " + Investigador.class.getName() + " WHERE edad < 100 ORDER BY edad ASC");
+				Query<Organizacion> organizacionQuery = persistentManager.newQuery("SELECT FROM " + Organizacion.class.getName());
 
 			    for (Investigador investigador : investigadorQuery.executeList())
 			    {
-			        //System.out.println("- Selected from db: " + investigador.nombre);
-			        //si quitas estas dos lineas podemos ver el resultado en la bd
-			        //persistentManager.deletePersistent(investigador);
-			        //System.out.println("- Deleted from db: " + investigador.nombre);
+			        System.out.println("- Selected from db: " + investigador.nombre);
 			    }
+
+				for (Organizacion organizacion : organizacionQuery.executeList())
+				{
+					System.out.println("- Selected from db: " + organizacion.nombre);
+					//si quitas estas dos lineas podemos ver el resultado en la bd
+					//borro las organizaciones
+					persistentManager.deletePersistent(organizacion);
+					System.out.println("- Deleted from db: " + organizacion.nombre);
+				}
 
 			    transaction.commit();
 			}
